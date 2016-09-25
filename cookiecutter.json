@@ -1,0 +1,13 @@
+{
+    "author": "Harshad Sharma",
+    "email": "harshad@sharma.io",
+    "github_username": "hiway",
+    "project_name": "",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_description": "",
+    "project_url": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}",
+    "version": "2016.1.1",
+    "license": ["Mozilla Public License 2.0", "None"],
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
+
